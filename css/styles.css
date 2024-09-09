@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+header {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 30px 0;
+}
+
+.cta {
+    padding: 10px 25px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.cta-secondary {
+    background-color: #6c757d;
+}
+
+.benefits, .testimonials, .features, .pricing, .faq {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.benefits h2, .testimonials h2, .features h2, .pricing h2, .faq h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.benefit, .feature, .plan {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.print {
+    max-height:100%;
+    max-width:100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.print:hover {
+    -webkit-transform: scale(2.1);
+    transform: scale(2.1);
+}
